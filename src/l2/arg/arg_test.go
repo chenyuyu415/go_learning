@@ -57,6 +57,6 @@ func TestFib(t *testing.T) {
 		c = a + b
 		a = b
 		b = c
-		//t.Log(c, " ")
 	}
+	t.Log(c, " ")
 }
